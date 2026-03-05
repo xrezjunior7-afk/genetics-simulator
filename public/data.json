@@ -1,0 +1,277 @@
+{
+  "subjects": [
+    {
+      "id": "pea-plant",
+      "name": "Tanaman Kacang Ersi (Pisum sativum)",
+      "description": "Organisme yang digunakan Gregor Mendel dalam percobaan genetika klasiknya",
+      "baseImage": "/images/organisms/pea-plant-base.svg",
+      "traits": [
+        {
+          "name": "Warna Biji",
+          "defaultSymbols": { "dominant": "K", "recessive": "k" },
+          "options": [
+            {
+              "phenotype": "Kuning",
+              "image": "/images/organisms/pea-seed-yellow.svg",
+              "description": "Warna kuning dominan"
+            },
+            {
+              "phenotype": "Hijau",
+              "image": "/images/organisms/pea-seed-green.svg",
+              "description": "Warna hijau resesif"
+            }
+          ]
+        },
+        {
+          "name": "Bentuk Biji",
+          "defaultSymbols": { "dominant": "B", "recessive": "b" },
+          "options": [
+            {
+              "phenotype": "Bulat",
+              "image": "/images/organisms/pea-seed-round.svg",
+              "description": "Bentuk bulat dominan"
+            },
+            {
+              "phenotype": "Kisut",
+              "image": "/images/organisms/pea-seed-wrinkled.svg",
+              "description": "Bentuk kisut resesif"
+            }
+          ]
+        },
+        {
+          "name": "Warna Bunga",
+          "defaultSymbols": { "dominant": "U", "recessive": "u" },
+          "options": [
+            {
+              "phenotype": "Ungu",
+              "image": "/images/organisms/pea-flower-purple.svg",
+              "description": "Warna ungu dominan"
+            },
+            {
+              "phenotype": "Putih",
+              "image": "/images/organisms/pea-flower-white.svg",
+              "description": "Warna putih resesif"
+            }
+          ]
+        },
+        {
+          "name": "Tinggi Batang",
+          "defaultSymbols": { "dominant": "T", "recessive": "t" },
+          "options": [
+            {
+              "phenotype": "Tinggi",
+              "image": "/images/organisms/pea-stem-tall.svg",
+              "description": "Batang tinggi dominan"
+            },
+            {
+              "phenotype": "Pendek",
+              "image": "/images/organisms/pea-stem-short.svg",
+              "description": "Batang pendek resesif"
+            }
+          ]
+        },
+        {
+          "name": "Posisi Bunga",
+          "defaultSymbols": { "dominant": "A", "recessive": "a" },
+          "options": [
+            {
+              "phenotype": "Aksial",
+              "image": "/images/organisms/pea-flower-axial.svg",
+              "description": "Posisi aksial dominan"
+            },
+            {
+              "phenotype": "Terminal",
+              "image": "/images/organisms/pea-flower-terminal.svg",
+              "description": "Posisi terminal resesif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guinea-pig",
+      "name": "Marmut (Cavia porcellus)",
+      "description": "Hewan pengerat yang sering digunakan dalam percobaan genetika",
+      "baseImage": "/images/organisms/guinea-pig-base.svg",
+      "traits": [
+        {
+          "name": "Warna Rambut",
+          "defaultSymbols": { "dominant": "H", "recessive": "h" },
+          "options": [
+            {
+              "phenotype": "Hitam",
+              "image": "/images/organisms/guinea-pig-black.svg",
+              "description": "Warna hitam dominan"
+            },
+            {
+              "phenotype": "Putih",
+              "image": "/images/organisms/guinea-pig-white.svg",
+              "description": "Warna putih resesif"
+            }
+          ]
+        },
+        {
+          "name": "Tekstur Rambut",
+          "defaultSymbols": { "dominant": "R", "recessive": "r" },
+          "options": [
+            {
+              "phenotype": "Kasar",
+              "image": "/images/organisms/guinea-pig-rough.svg",
+              "description": "Rambut kasar dominan"
+            },
+            {
+              "phenotype": "Halus",
+              "image": "/images/organisms/guinea-pig-smooth.svg",
+              "description": "Rambut halus resesif"
+            }
+          ]
+        },
+        {
+          "name": "Panjang Rambut",
+          "defaultSymbols": { "dominant": "S", "recessive": "s" },
+          "options": [
+            {
+              "phenotype": "Pendek",
+              "image": "/images/organisms/guinea-pig-short.svg",
+              "description": "Rambut pendek dominan"
+            },
+            {
+              "phenotype": "Panjang",
+              "image": "/images/organisms/guinea-pig-long.svg",
+              "description": "Rambut panjang resesif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fruit-fly",
+      "name": "Lalat Buah (Drosophila melanogaster)",
+      "description": "Model organisme penting dalam studi genetika modern",
+      "baseImage": "/images/organisms/fruit-fly-base.svg",
+      "traits": [
+        {
+          "name": "Bentuk Sayap",
+          "defaultSymbols": { "dominant": "N", "recessive": "n" },
+          "options": [
+            {
+              "phenotype": "Normal",
+              "image": "/images/organisms/fly-wing-normal.svg",
+              "description": "Sayap normal dominan"
+            },
+            {
+              "phenotype": "Vestigial",
+              "image": "/images/organisms/fly-wing-vestigial.svg",
+              "description": "Sayap vestigial resesif"
+            }
+          ]
+        },
+        {
+          "name": "Warna Mata",
+          "defaultSymbols": { "dominant": "M", "recessive": "m" },
+          "options": [
+            {
+              "phenotype": "Merah",
+              "image": "/images/organisms/fly-eye-red.svg",
+              "description": "Mata merah dominan"
+            },
+            {
+              "phenotype": "Putih",
+              "image": "/images/organisms/fly-eye-white.svg",
+              "description": "Mata putih resesif"
+            }
+          ]
+        },
+        {
+          "name": "Warna Tubuh",
+          "defaultSymbols": { "dominant": "G", "recessive": "g" },
+          "options": [
+            {
+              "phenotype": "Abu-abu",
+              "image": "/images/organisms/fly-body-gray.svg",
+              "description": "Tubuh abu-abu dominan"
+            },
+            {
+              "phenotype": "Hitam",
+              "image": "/images/organisms/fly-body-black.svg",
+              "description": "Tubuh hitam resesif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corn-plant",
+      "name": "Tanaman Jagung (Zea mays)",
+      "description": "Tanaman model untuk studi genetika tanaman",
+      "baseImage": "/images/organizations/corn-base.svg",
+      "traits": [
+        {
+          "name": "Warna Biji",
+          "defaultSymbols": { "dominant": "P", "recessive": "p" },
+          "options": [
+            {
+              "phenotype": "Ungu",
+              "image": "/images/organisms/corn-purple.svg",
+              "description": "Warna ungu dominan"
+            },
+            {
+              "phenotype": "Kuning",
+              "image": "/images/organisms/corn-yellow.svg",
+              "description": "Warna kuning resesif"
+            }
+          ]
+        },
+        {
+          "name": "Tekstur Biji",
+          "defaultSymbols": { "dominant": "S", "recessive": "s" },
+          "options": [
+            {
+              "phenotype": "Licus",
+              "image": "/images/organisms/corn-smooth.svg",
+              "description": "Biji licin dominan"
+            },
+            {
+              "phenotype": "Kisut",
+              "image": "/images/organisms/corn-wrinkled.svg",
+              "description": "Biji kisut resesif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tutorials": {
+    "monohybrid": {
+      "title": "Hukum Mendel I (Segregasi)",
+      "description": "Hukum segregasi menyatakan bahwa setiap individu memiliki sepasang alel untuk setiap sifat, dan alel-alel ini memisah (segregasi) selama pembentukan gamet.",
+      "steps": [
+        "Pilih organisme yang ingin dipelajari",
+        "Pilih satu sifat (trait) yang akan disilangkan",
+        "Tentukan alel dominan dan resesif",
+        "Pilih fenotipe parent 1 dan parent 2",
+        "Amati hasil persilangan pada tabel Punnett",
+        "Analisis rasio genotipe dan fenotipe hasil keturunan"
+      ]
+    },
+    "dihybrid": {
+      "title": "Hukum Mendel II (Pengelompokan Bebas)",
+      "description": "Hukum pengelompokan bebas menyatakan bahwa alel dari gen yang berbeda akan diwariskan secara independen satu sama lain selama pembentukan gamet.",
+      "steps": [
+        "Pilih organisme yang ingin dipelajari",
+        "Pilih dua sifat (traits) yang akan disilangkan",
+        "Tentukan alel dominan dan resesif untuk setiap sifat",
+        "Pilih fenotipe kedua parent untuk kedua sifat",
+        "Amati hasil persilangan pada tabel Punnett 4x4",
+        "Analisis rasio fenotipe hasil keturunan (9:3:3:1)"
+      ]
+    }
+  },
+  "achievements": [
+    { "id": "first-cross", "name": "Peneliti Pemula", "description": "Selesaikan persilangan pertama", "icon": "microscope" },
+    { "id": "monohybrid-master", "name": "Ahli Monohybrid", "description": "Selesaikan 5 persilangan monohybrid", "icon": "dna" },
+    { "id": "dihybrid-master", "name": "Ahli Dihybrid", "description": "Selesaikan 5 persilangan dihybrid", "icon": "chromosome" },
+    { "id": "generation-3", "name": "Pedigree Expert", "description": "Capai generasi F3 atau lebih", "icon": "family-tree" },
+    { "id": "ratio-predictor", "name": "Peramal Genetik", "description": "Tebak rasio fenotipe dengan benar", "icon": "crystal-ball" }
+  ]
+}

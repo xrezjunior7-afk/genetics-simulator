@@ -1,0 +1,19 @@
+<svg viewBox="0 0 80 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tallStem" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Tall stem -->
+  <rect x="38" y="10" width="6" height="105" rx="3" fill="url(#tallStem)"/>
+  <!-- Leaves -->
+  <ellipse cx="25" cy="40" rx="18" ry="8" fill="#66BB6A" transform="rotate(-30 25 40)"/>
+  <ellipse cx="55" cy="30" rx="18" ry="8" fill="#66BB6A" transform="rotate(30 55 30)"/>
+  <ellipse cx="22" cy="70" rx="15" ry="7" fill="#66BB6A" transform="rotate(-40 22 70)"/>
+  <ellipse cx="58" cy="60" rx="15" ry="7" fill="#66BB6A" transform="rotate(40 58 60)"/>
+  <ellipse cx="25" cy="95" rx="12" ry="6" fill="#66BB6A" transform="rotate(-35 25 95)"/>
+  <!-- Height indicator -->
+  <text x="70" y="60" font-size="10" fill="#666">Tinggi</text>
+  <line x1="68" y1="15" x2="68" y2="110" stroke="#666" stroke-width="1" stroke-dasharray="3,3"/>
+</svg>

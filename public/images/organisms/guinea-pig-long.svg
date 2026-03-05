@@ -1,0 +1,30 @@
+<svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="longHair" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#D7CCC8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A1887F;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Body - long flowing hair -->
+  <ellipse cx="55" cy="50" rx="45" ry="30" fill="url(#longHair)"/>
+  <!-- Long hair strands -->
+  <path d="M15 40 Q10 60 20 75" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <path d="M25 35 Q18 55 25 72" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <path d="M85 35 Q92 55 88 72" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <path d="M95 42 Q100 62 92 75" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <!-- Head -->
+  <ellipse cx="95" cy="42" rx="18" ry="15" fill="url(#longHair)"/>
+  <!-- Long head hair -->
+  <path d="M82 30 Q78 15 88 20" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <path d="M100 28 Q105 12 98 22" stroke="#8D6E63" stroke-width="2" fill="none"/>
+  <!-- Ears (partially hidden by hair) -->
+  <ellipse cx="88" cy="28" rx="7" ry="5" fill="#BCAAA4"/>
+  <ellipse cx="102" cy="30" rx="7" ry="5" fill="#BCAAA4"/>
+  <!-- Eyes -->
+  <circle cx="102" cy="40" r="4" fill="#1a1a1a"/>
+  <circle cx="103" cy="39" r="1.5" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="110" cy="44" rx="4" ry="3" fill="#FFB6C1"/>
+  <!-- Label -->
+  <text x="45" y="85" font-size="10" fill="#5D4037" font-weight="bold">Panjang</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="smoothFur" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#FFCCBC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8A65;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Body - smooth appearance -->
+  <ellipse cx="60" cy="45" rx="40" ry="25" fill="url(#smoothFur)"/>
+  <!-- Head -->
+  <ellipse cx="95" cy="40" rx="18" ry="15" fill="url(#smoothFur)"/>
+  <!-- Ears -->
+  <ellipse cx="88" cy="28" rx="8" ry="6" fill="#FFAB91"/>
+  <ellipse cx="100" cy="28" rx="8" ry="6" fill="#FFAB91"/>
+  <!-- Eyes -->
+  <circle cx="102" cy="38" r="4" fill="#1a1a1a"/>
+  <circle cx="103" cy="37" r="1.5" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="110" cy="42" rx="4" ry="3" fill="#FFB6C1"/>
+  <!-- Legs -->
+  <ellipse cx="35" cy="62" rx="8" ry="6" fill="url(#smoothFur)"/>
+  <ellipse cx="75" cy="62" rx="8" ry="6" fill="url(#smoothFur)"/>
+  <!-- Label -->
+  <text x="45" y="75" font-size="10" fill="#BF360C" font-weight="bold">Halus</text>
+</svg>

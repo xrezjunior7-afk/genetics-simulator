@@ -1,0 +1,40 @@
+<svg viewBox="0 0 60 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wrinkledKernel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEE58;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FBC02D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Corn ear shape -->
+  <ellipse cx="30" cy="50" rx="22" ry="40" fill="#FFFDE7" stroke="#FBC02D" stroke-width="1"/>
+  <!-- Wrinkled kernels in rows -->
+  <g fill="url(#wrinkledKernel)">
+    <!-- Row 1 - irregular shapes -->
+    <path d="M18 18 Q22 15 26 20 Q22 25 18 22 Z"/>
+    <path d="M28 16 Q34 13 38 18 Q36 23 30 21 Z"/>
+    <path d="M40 18 Q45 16 48 22 Q44 26 40 23 Z"/>
+    <!-- Row 2 -->
+    <path d="M14 30 Q18 27 22 32 Q18 37 14 34 Z"/>
+    <path d="M24 28 Q30 25 34 30 Q32 35 26 33 Z"/>
+    <path d="M36 28 Q42 25 46 30 Q44 35 38 33 Z"/>
+    <path d="M46 32 Q50 30 52 35 Q50 40 46 37 Z"/>
+    <!-- Row 3 -->
+    <path d="M16 42 Q22 39 26 44 Q22 49 16 46 Z"/>
+    <path d="M28 40 Q34 37 38 42 Q36 47 30 45 Z"/>
+    <path d="M40 42 Q46 39 48 45 Q46 50 40 47 Z"/>
+    <!-- Row 4 -->
+    <path d="M14 54 Q18 51 22 56 Q18 61 14 58 Z"/>
+    <path d="M24 52 Q30 49 34 54 Q32 59 26 57 Z"/>
+    <path d="M36 52 Q42 49 46 54 Q44 59 38 57 Z"/>
+    <path d="M46 56 Q50 54 52 59 Q50 64 46 61 Z"/>
+    <!-- Row 5 -->
+    <path d="M18 66 Q22 63 26 68 Q22 73 18 70 Z"/>
+    <path d="M28 64 Q34 61 38 66 Q36 71 30 69 Z"/>
+    <path d="M40 66 Q46 63 48 69 Q46 74 40 71 Z"/>
+    <!-- Row 6 -->
+    <path d="M22 78 Q28 75 32 80 Q28 85 22 82 Z"/>
+    <path d="M34 78 Q40 75 44 80 Q40 85 34 82 Z"/>
+  </g>
+  <!-- Label -->
+  <text x="12" y="98" font-size="9" fill="#F57F17" font-weight="bold">Kisut</text>
+</svg>

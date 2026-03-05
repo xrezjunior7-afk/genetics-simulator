@@ -1,0 +1,32 @@
+<svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="roughFur" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#A1887F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D4037;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Body with rough texture indication -->
+  <ellipse cx="60" cy="45" rx="40" ry="25" fill="url(#roughFur)"/>
+  <!-- Rough fur lines -->
+  <path d="M30 35 L35 30" stroke="#3E2723" stroke-width="1.5"/>
+  <path d="M45 30 L50 25" stroke="#3E2723" stroke-width="1.5"/>
+  <path d="M70 28 L75 23" stroke="#3E2723" stroke-width="1.5"/>
+  <path d="M85 35 L88 30" stroke="#3E2723" stroke-width="1.5"/>
+  <path d="M25 50 L20 48" stroke="#3E2723" stroke-width="1.5"/>
+  <path d="M90 50 L95 48" stroke="#3E2723" stroke-width="1.5"/>
+  <!-- Head -->
+  <ellipse cx="95" cy="40" rx="18" ry="15" fill="url(#roughFur)"/>
+  <!-- Ears -->
+  <ellipse cx="88" cy="28" rx="8" ry="6" fill="#6D4C41"/>
+  <ellipse cx="100" cy="28" rx="8" ry="6" fill="#6D4C41"/>
+  <!-- Eyes -->
+  <circle cx="102" cy="38" r="4" fill="#1a1a1a"/>
+  <circle cx="103" cy="37" r="1.5" fill="#fff"/>
+  <!-- Nose -->
+  <ellipse cx="110" cy="42" rx="4" ry="3" fill="#FFB6C1"/>
+  <!-- Legs -->
+  <ellipse cx="35" cy="62" rx="8" ry="6" fill="url(#roughFur)"/>
+  <ellipse cx="75" cy="62" rx="8" ry="6" fill="url(#roughFur)"/>
+  <!-- Label -->
+  <text x="45" y="75" font-size="10" fill="#5D4037" font-weight="bold">Kasar</text>
+</svg>

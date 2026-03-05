@@ -1,0 +1,27 @@
+<svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="flyBody3" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#795548;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3E2723;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Body -->
+  <ellipse cx="45" cy="42" rx="20" ry="10" fill="url(#flyBody3)"/>
+  <!-- Head -->
+  <circle cx="63" cy="42" r="8" fill="url(#flyBody3)"/>
+  <!-- Red Eyes -->
+  <ellipse cx="67" cy="39" rx="4" ry="5" fill="#E53935"/>
+  <ellipse cx="67" cy="45" rx="4" ry="5" fill="#E53935"/>
+  <!-- Eye shine -->
+  <circle cx="68" cy="37" r="1.5" fill="#FFCDD2"/>
+  <circle cx="68" cy="43" r="1.5" fill="#FFCDD2"/>
+  <!-- Antennae -->
+  <line x1="69" y1="36" x2="73" y2="30" stroke="#3E2723" stroke-width="1"/>
+  <line x1="69" y1="48" x2="73" y2="54" stroke="#3E2723" stroke-width="1"/>
+  <!-- Legs -->
+  <line x1="35" y1="48" x2="32" y2="58" stroke="#3E2723" stroke-width="1"/>
+  <line x1="45" y1="50" x2="44" y2="60" stroke="#3E2723" stroke-width="1"/>
+  <line x1="53" y1="48" x2="53" y2="58" stroke="#3E2723" stroke-width="1"/>
+  <!-- Label -->
+  <text x="55" y="72" font-size="10" fill="#C62828" font-weight="bold">Merah</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 60 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cornStalk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Stalk -->
+  <rect x="28" y="5" width="6" height="90" rx="3" fill="url(#cornStalk)"/>
+  <!-- Leaves -->
+  <path d="M30 20 Q10 15 5 25 Q15 28 30 25" fill="#66BB6A"/>
+  <path d="M32 35 Q52 30 58 40 Q48 43 32 40" fill="#66BB6A"/>
+  <path d="M30 50 Q10 45 5 55 Q15 58 30 55" fill="#66BB6A"/>
+  <path d="M32 65 Q52 60 58 70 Q48 73 32 70" fill="#66BB6A"/>
+  <!-- Small corn ear -->
+  <ellipse cx="25" cy="75" rx="8" ry="12" fill="#FFF59D" stroke="#F9A825" stroke-width="1"/>
+</svg>

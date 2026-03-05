@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="flyBodyWhite" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#a1a1aa"/>
+      <stop offset="100%" style="stop-color:#71717a"/>
+    </radialGradient>
+  </defs>
+  <!-- Wings -->
+  <ellipse cx="35" cy="45" rx="20" ry="10" fill="#e4e4e7" opacity="0.7" transform="rotate(-20 35 45)"/>
+  <ellipse cx="65" cy="45" rx="20" ry="10" fill="#e4e4e7" opacity="0.7" transform="rotate(20 65 45)"/>
+  <!-- Abdomen -->
+  <ellipse cx="50" cy="65" rx="12" ry="18" fill="url(#flyBodyWhite)"/>
+  <!-- Thorax -->
+  <ellipse cx="50" cy="42" rx="10" ry="12" fill="url(#flyBodyWhite)"/>
+  <!-- Head -->
+  <circle cx="50" cy="25" r="10" fill="url(#flyBodyWhite)"/>
+  <!-- White Eyes -->
+  <ellipse cx="43" cy="23" rx="6" ry="7" fill="#ffffff" stroke="#d4d4d8" stroke-width="0.5"/>
+  <ellipse cx="57" cy="23" rx="6" ry="7" fill="#ffffff" stroke="#d4d4d8" stroke-width="0.5"/>
+  <!-- Antennae -->
+  <path d="M45 18 Q42 12 40 10" stroke="#52525b" stroke-width="1.5" fill="none"/>
+  <path d="M55 18 Q58 12 60 10" stroke="#52525b" stroke-width="1.5" fill="none"/>
+  <!-- Legs -->
+  <path d="M42 50 L35 65 L30 70" stroke="#52525b" stroke-width="1.5" fill="none"/>
+  <path d="M50 52 L48 68 L45 75" stroke="#52525b" stroke-width="1.5" fill="none"/>
+  <path d="M58 50 L65 65 L70 70" stroke="#52525b" stroke-width="1.5" fill="none"/>
+  <path d="M50 52 L52 68 L55 75" stroke="#52525b" stroke-width="1.5" fill="none"/>
+</svg>
